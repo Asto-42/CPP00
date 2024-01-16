@@ -6,7 +6,7 @@
 /*   By: jquil <jquil@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/10 14:55:07 by jquil             #+#    #+#             */
-/*   Updated: 2024/01/16 15:20:32 by jquil            ###   ########.fr       */
+/*   Updated: 2024/01/16 15:58:15 by jquil            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,21 @@ Contact::Contact()
 	NickName = "(empty)";
 	PhoneNumber = "(empty)";
 	DarkestSecret = "(empty)";
+}
+
+std::string Contact::getFirstName()
+{
+	return FirstName;
+}
+
+std::string Contact::getLastName()
+{
+	return LastName;
+}
+
+std::string Contact::getNickName()
+{
+	return NickName;
 }
 
 bool Contact::setFirstName(std::string name)

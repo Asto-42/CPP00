@@ -6,7 +6,7 @@
 /*   By: jquil <jquil@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/10 13:12:22 by jquil             #+#    #+#             */
-/*   Updated: 2024/01/16 15:45:08 by jquil            ###   ########.fr       */
+/*   Updated: 2024/01/16 15:59:40 by jquil            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ int	main()
 	PhoneBook Rep;
 	while (run == 0)
 	{
+		std::cout << "ADD - SEARCH - EXIT" << std::endl;
 		std::getline(std::cin, str);
 		if (str == "ADD")
 			Rep.AddStuff();
